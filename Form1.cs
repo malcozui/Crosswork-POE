@@ -12,7 +12,6 @@ namespace CrosswordPOE_Team
 {
     public partial class CrosswordForm : Form
     {
-        //comment
         public CrosswordForm()
         {
             InitializeComponent();
