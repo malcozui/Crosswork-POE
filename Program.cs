@@ -8,6 +8,7 @@ namespace CrosswordPOE_Team
 {
     internal static class Program
     {
+        //hi there
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
