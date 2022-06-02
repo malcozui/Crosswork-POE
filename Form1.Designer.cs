@@ -59,6 +59,7 @@
             this.hintTextBox = new System.Windows.Forms.TextBox();
             this.hintLbl = new System.Windows.Forms.Label();
             this.winLbl = new System.Windows.Forms.Label();
+            this.resetButton = new System.Windows.Forms.Button();
             this.tilesPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -343,11 +344,21 @@
             this.winLbl.Text = "You Win!";
             this.winLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // resetButton
+            // 
+            this.resetButton.Location = new System.Drawing.Point(208, 78);
+            this.resetButton.Name = "resetButton";
+            this.resetButton.Size = new System.Drawing.Size(101, 27);
+            this.resetButton.TabIndex = 6;
+            this.resetButton.Text = "Reset";
+            this.resetButton.UseVisualStyleBackColor = true;
+            // 
             // CrosswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(321, 327);
+            this.Controls.Add(this.resetButton);
             this.Controls.Add(this.winLbl);
             this.Controls.Add(this.hintLbl);
             this.Controls.Add(this.hintTextBox);
@@ -398,6 +409,7 @@
         private System.Windows.Forms.TextBox hintTextBox;
         private System.Windows.Forms.Label hintLbl;
         private System.Windows.Forms.Label winLbl;
+        private System.Windows.Forms.Button resetButton;
     }
 }
 
