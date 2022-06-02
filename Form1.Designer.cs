@@ -99,7 +99,7 @@
             this.textBox25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox25.Location = new System.Drawing.Point(147, 147);
             this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(27, 27);
+            this.textBox25.Size = new System.Drawing.Size(27, 32);
             this.textBox25.TabIndex = 25;
             // 
             // textBox24
@@ -107,7 +107,7 @@
             this.textBox24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox24.Location = new System.Drawing.Point(114, 147);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(27, 27);
+            this.textBox24.Size = new System.Drawing.Size(27, 32);
             this.textBox24.TabIndex = 24;
             // 
             // textBox23
@@ -115,7 +115,7 @@
             this.textBox23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox23.Location = new System.Drawing.Point(81, 147);
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(27, 27);
+            this.textBox23.Size = new System.Drawing.Size(27, 32);
             this.textBox23.TabIndex = 23;
             // 
             // textBox22
@@ -123,7 +123,7 @@
             this.textBox22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox22.Location = new System.Drawing.Point(48, 147);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(27, 27);
+            this.textBox22.Size = new System.Drawing.Size(27, 32);
             this.textBox22.TabIndex = 22;
             // 
             // textBox21
@@ -131,7 +131,7 @@
             this.textBox21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox21.Location = new System.Drawing.Point(15, 147);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(27, 27);
+            this.textBox21.Size = new System.Drawing.Size(27, 32);
             this.textBox21.TabIndex = 21;
             // 
             // textBox20
@@ -139,7 +139,7 @@
             this.textBox20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox20.Location = new System.Drawing.Point(147, 114);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(27, 27);
+            this.textBox20.Size = new System.Drawing.Size(27, 32);
             this.textBox20.TabIndex = 20;
             // 
             // textBox19
@@ -147,7 +147,7 @@
             this.textBox19.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox19.Location = new System.Drawing.Point(114, 114);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(27, 27);
+            this.textBox19.Size = new System.Drawing.Size(27, 32);
             this.textBox19.TabIndex = 19;
             // 
             // textBox18
@@ -155,7 +155,7 @@
             this.textBox18.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox18.Location = new System.Drawing.Point(81, 114);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(27, 27);
+            this.textBox18.Size = new System.Drawing.Size(27, 32);
             this.textBox18.TabIndex = 18;
             // 
             // textBox17
@@ -163,7 +163,7 @@
             this.textBox17.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox17.Location = new System.Drawing.Point(48, 114);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(27, 27);
+            this.textBox17.Size = new System.Drawing.Size(27, 32);
             this.textBox17.TabIndex = 17;
             // 
             // textBox16
@@ -171,7 +171,7 @@
             this.textBox16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox16.Location = new System.Drawing.Point(15, 114);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(27, 27);
+            this.textBox16.Size = new System.Drawing.Size(27, 32);
             this.textBox16.TabIndex = 16;
             // 
             // textBox15
@@ -179,7 +179,7 @@
             this.textBox15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox15.Location = new System.Drawing.Point(147, 81);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(27, 27);
+            this.textBox15.Size = new System.Drawing.Size(27, 32);
             this.textBox15.TabIndex = 15;
             // 
             // textBox14
@@ -187,7 +187,7 @@
             this.textBox14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox14.Location = new System.Drawing.Point(114, 81);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(27, 27);
+            this.textBox14.Size = new System.Drawing.Size(27, 32);
             this.textBox14.TabIndex = 14;
             // 
             // textBox13
@@ -195,7 +195,7 @@
             this.textBox13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox13.Location = new System.Drawing.Point(81, 81);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(27, 27);
+            this.textBox13.Size = new System.Drawing.Size(27, 32);
             this.textBox13.TabIndex = 13;
             // 
             // textBox12
@@ -203,7 +203,7 @@
             this.textBox12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.Location = new System.Drawing.Point(48, 81);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(27, 27);
+            this.textBox12.Size = new System.Drawing.Size(27, 32);
             this.textBox12.TabIndex = 12;
             // 
             // textBox11
@@ -211,7 +211,7 @@
             this.textBox11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(15, 81);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(27, 27);
+            this.textBox11.Size = new System.Drawing.Size(27, 32);
             this.textBox11.TabIndex = 11;
             // 
             // textBox10
@@ -219,7 +219,7 @@
             this.textBox10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.Location = new System.Drawing.Point(147, 48);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(27, 27);
+            this.textBox10.Size = new System.Drawing.Size(27, 32);
             this.textBox10.TabIndex = 10;
             // 
             // textBox9
@@ -227,7 +227,7 @@
             this.textBox9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.Location = new System.Drawing.Point(114, 48);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(27, 27);
+            this.textBox9.Size = new System.Drawing.Size(27, 32);
             this.textBox9.TabIndex = 9;
             // 
             // textBox8
@@ -235,7 +235,7 @@
             this.textBox8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.Location = new System.Drawing.Point(81, 48);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(27, 27);
+            this.textBox8.Size = new System.Drawing.Size(27, 32);
             this.textBox8.TabIndex = 8;
             // 
             // textBox7
@@ -243,7 +243,7 @@
             this.textBox7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.Location = new System.Drawing.Point(48, 48);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(27, 27);
+            this.textBox7.Size = new System.Drawing.Size(27, 32);
             this.textBox7.TabIndex = 7;
             // 
             // textBox6
@@ -251,7 +251,7 @@
             this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(15, 48);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(27, 27);
+            this.textBox6.Size = new System.Drawing.Size(27, 32);
             this.textBox6.TabIndex = 6;
             // 
             // textBox5
@@ -259,7 +259,7 @@
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(147, 15);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(27, 27);
+            this.textBox5.Size = new System.Drawing.Size(27, 32);
             this.textBox5.TabIndex = 5;
             // 
             // textBox4
@@ -267,7 +267,7 @@
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(114, 15);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(27, 27);
+            this.textBox4.Size = new System.Drawing.Size(27, 32);
             this.textBox4.TabIndex = 4;
             // 
             // textBox3
@@ -275,7 +275,7 @@
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(81, 15);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(27, 27);
+            this.textBox3.Size = new System.Drawing.Size(27, 32);
             this.textBox3.TabIndex = 3;
             // 
             // textBox2
@@ -283,7 +283,7 @@
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(48, 15);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(27, 27);
+            this.textBox2.Size = new System.Drawing.Size(27, 32);
             this.textBox2.TabIndex = 2;
             // 
             // textBox1
@@ -291,12 +291,12 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(15, 15);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(27, 27);
+            this.textBox1.Size = new System.Drawing.Size(27, 32);
             this.textBox1.TabIndex = 1;
             // 
             // hintButton
             // 
-            this.hintButton.Location = new System.Drawing.Point(208, 60);
+            this.hintButton.Location = new System.Drawing.Point(208, 12);
             this.hintButton.Name = "hintButton";
             this.hintButton.Size = new System.Drawing.Size(101, 27);
             this.hintButton.TabIndex = 1;
@@ -305,7 +305,7 @@
             // 
             // guessButton
             // 
-            this.guessButton.Location = new System.Drawing.Point(208, 93);
+            this.guessButton.Location = new System.Drawing.Point(208, 45);
             this.guessButton.Name = "guessButton";
             this.guessButton.Size = new System.Drawing.Size(101, 27);
             this.guessButton.TabIndex = 2;
@@ -325,13 +325,13 @@
             this.hintLbl.AutoSize = true;
             this.hintLbl.Location = new System.Drawing.Point(16, 206);
             this.hintLbl.Name = "hintLbl";
-            this.hintLbl.Size = new System.Drawing.Size(37, 13);
+            this.hintLbl.Size = new System.Drawing.Size(44, 19);
             this.hintLbl.TabIndex = 4;
             this.hintLbl.Text = "Hints:";
             // 
             // CrosswordForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(321, 327);
             this.Controls.Add(this.hintLbl);
