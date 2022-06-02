@@ -58,6 +58,7 @@
             this.guessButton = new System.Windows.Forms.Button();
             this.hintTextBox = new System.Windows.Forms.TextBox();
             this.hintLbl = new System.Windows.Forms.Label();
+            this.winLbl = new System.Windows.Forms.Label();
             this.tilesPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -331,11 +332,23 @@
             this.hintLbl.TabIndex = 4;
             this.hintLbl.Text = "Hints:";
             // 
+            // winLbl
+            // 
+            this.winLbl.AutoSize = true;
+            this.winLbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winLbl.Location = new System.Drawing.Point(222, 126);
+            this.winLbl.Name = "winLbl";
+            this.winLbl.Size = new System.Drawing.Size(72, 20);
+            this.winLbl.TabIndex = 5;
+            this.winLbl.Text = "You Win!";
+            this.winLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CrosswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(321, 327);
+            this.Controls.Add(this.winLbl);
             this.Controls.Add(this.hintLbl);
             this.Controls.Add(this.hintTextBox);
             this.Controls.Add(this.guessButton);
@@ -384,6 +397,7 @@
         private System.Windows.Forms.Button guessButton;
         private System.Windows.Forms.TextBox hintTextBox;
         private System.Windows.Forms.Label hintLbl;
+        private System.Windows.Forms.Label winLbl;
     }
 }
 
