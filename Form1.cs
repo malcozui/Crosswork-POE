@@ -12,6 +12,13 @@ namespace CrosswordPOE_Team
 {
     public partial class CrosswordForm : Form
     {
+        Color black = Color.Black;
+        Color white = Color.White;
+        Color green = Color.LimeGreen;
+        Color red = Color.Red;
+
+        // Reminder: comment what you did!!!
+
         /* Set up:
          * 2D textbox array of the 25 textboxes
          * [no boolean array] check the colour in double for loop
@@ -40,6 +47,21 @@ namespace CrosswordPOE_Team
             InitializeComponent();
         }
 
+        private void CrosswordForm_Load(object sender, EventArgs e)
+        {
+            //do stuff
+        }
+
+        private void hintButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guessButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        
         private void ChangeTextBoxStatus(TextBox tb, Color col)
         {
             tb.BackColor = col;

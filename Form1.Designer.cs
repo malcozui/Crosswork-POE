@@ -302,6 +302,7 @@
             this.hintButton.TabIndex = 1;
             this.hintButton.Text = "Show Hint";
             this.hintButton.UseVisualStyleBackColor = true;
+            this.hintButton.Click += new System.EventHandler(this.hintButton_Click);
             // 
             // guessButton
             // 
@@ -311,6 +312,7 @@
             this.guessButton.TabIndex = 2;
             this.guessButton.Text = "Check Guesses";
             this.guessButton.UseVisualStyleBackColor = true;
+            this.guessButton.Click += new System.EventHandler(this.guessButton_Click);
             // 
             // hintTextBox
             // 
@@ -342,6 +344,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "CrosswordForm";
             this.Text = "Crossword Game!!!";
+            this.Load += new System.EventHandler(this.CrosswordForm_Load);
             this.tilesPanel.ResumeLayout(false);
             this.tilesPanel.PerformLayout();
             this.ResumeLayout(false);
