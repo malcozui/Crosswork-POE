@@ -61,11 +61,14 @@ namespace CrosswordPOE_Team
         {
 
         }
-        
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void ChangeTextBoxStatus(TextBox tb, Color col)
         {
             tb.BackColor = col;
         }
     }
-    
 }
