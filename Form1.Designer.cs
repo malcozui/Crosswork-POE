@@ -330,6 +330,7 @@
             // 
             this.hintTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.hintTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hintTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.hintTextBox.Location = new System.Drawing.Point(12, 222);
             this.hintTextBox.Multiline = true;
             this.hintTextBox.Name = "hintTextBox";
