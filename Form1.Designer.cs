@@ -65,7 +65,7 @@
             // 
             // tilesPanel
             // 
-            this.tilesPanel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.tilesPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.tilesPanel.Controls.Add(this.textBox25);
             this.tilesPanel.Controls.Add(this.textBox24);
             this.tilesPanel.Controls.Add(this.textBox23);
@@ -298,26 +298,38 @@
             // 
             // hintButton
             // 
+            this.hintButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.hintButton.FlatAppearance.BorderSize = 0;
+            this.hintButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.hintButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.hintButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hintButton.Location = new System.Drawing.Point(208, 12);
             this.hintButton.Name = "hintButton";
             this.hintButton.Size = new System.Drawing.Size(101, 27);
             this.hintButton.TabIndex = 1;
             this.hintButton.Text = "Show Hint";
-            this.hintButton.UseVisualStyleBackColor = true;
+            this.hintButton.UseVisualStyleBackColor = false;
             this.hintButton.Click += new System.EventHandler(this.hintButton_Click);
             // 
             // guessButton
             // 
+            this.guessButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.guessButton.FlatAppearance.BorderSize = 0;
+            this.guessButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.guessButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.guessButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.guessButton.Location = new System.Drawing.Point(208, 45);
             this.guessButton.Name = "guessButton";
             this.guessButton.Size = new System.Drawing.Size(101, 27);
             this.guessButton.TabIndex = 2;
             this.guessButton.Text = "Check Guesses";
-            this.guessButton.UseVisualStyleBackColor = true;
+            this.guessButton.UseVisualStyleBackColor = false;
             this.guessButton.Click += new System.EventHandler(this.guessButton_Click);
             // 
             // hintTextBox
             // 
+            this.hintTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.hintTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hintTextBox.Location = new System.Drawing.Point(12, 222);
             this.hintTextBox.Multiline = true;
             this.hintTextBox.Name = "hintTextBox";
@@ -337,6 +349,7 @@
             // 
             this.winLbl.AutoSize = true;
             this.winLbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winLbl.ForeColor = System.Drawing.Color.White;
             this.winLbl.Location = new System.Drawing.Point(222, 126);
             this.winLbl.Name = "winLbl";
             this.winLbl.Size = new System.Drawing.Size(72, 20);
@@ -346,18 +359,24 @@
             // 
             // resetButton
             // 
+            this.resetButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.resetButton.FlatAppearance.BorderSize = 0;
+            this.resetButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.resetButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resetButton.Location = new System.Drawing.Point(208, 78);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(101, 27);
             this.resetButton.TabIndex = 6;
             this.resetButton.Text = "Reset";
-            this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.UseVisualStyleBackColor = false;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
             // CrosswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.ClientSize = new System.Drawing.Size(321, 327);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.winLbl);
@@ -367,6 +386,7 @@
             this.Controls.Add(this.hintButton);
             this.Controls.Add(this.tilesPanel);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Name = "CrosswordForm";
             this.Text = "Crossword Game!!!";
             this.Load += new System.EventHandler(this.CrosswordForm_Load);
