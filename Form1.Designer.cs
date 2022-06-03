@@ -100,6 +100,7 @@
             // 
             this.tile44.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile44.Location = new System.Drawing.Point(147, 147);
+            this.tile44.MaxLength = 1;
             this.tile44.Name = "tile44";
             this.tile44.Size = new System.Drawing.Size(27, 27);
             this.tile44.TabIndex = 25;
@@ -108,6 +109,7 @@
             // 
             this.tile43.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile43.Location = new System.Drawing.Point(114, 147);
+            this.tile43.MaxLength = 1;
             this.tile43.Name = "tile43";
             this.tile43.Size = new System.Drawing.Size(27, 27);
             this.tile43.TabIndex = 24;
@@ -116,6 +118,7 @@
             // 
             this.tile42.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile42.Location = new System.Drawing.Point(81, 147);
+            this.tile42.MaxLength = 1;
             this.tile42.Name = "tile42";
             this.tile42.Size = new System.Drawing.Size(27, 27);
             this.tile42.TabIndex = 23;
@@ -124,6 +127,7 @@
             // 
             this.tile41.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile41.Location = new System.Drawing.Point(48, 147);
+            this.tile41.MaxLength = 1;
             this.tile41.Name = "tile41";
             this.tile41.Size = new System.Drawing.Size(27, 27);
             this.tile41.TabIndex = 22;
@@ -132,6 +136,7 @@
             // 
             this.tile40.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile40.Location = new System.Drawing.Point(15, 147);
+            this.tile40.MaxLength = 1;
             this.tile40.Name = "tile40";
             this.tile40.Size = new System.Drawing.Size(27, 27);
             this.tile40.TabIndex = 21;
@@ -140,6 +145,7 @@
             // 
             this.tile34.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile34.Location = new System.Drawing.Point(147, 114);
+            this.tile34.MaxLength = 1;
             this.tile34.Name = "tile34";
             this.tile34.Size = new System.Drawing.Size(27, 27);
             this.tile34.TabIndex = 20;
@@ -148,6 +154,7 @@
             // 
             this.tile33.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile33.Location = new System.Drawing.Point(114, 114);
+            this.tile33.MaxLength = 1;
             this.tile33.Name = "tile33";
             this.tile33.Size = new System.Drawing.Size(27, 27);
             this.tile33.TabIndex = 19;
@@ -156,6 +163,7 @@
             // 
             this.tile32.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile32.Location = new System.Drawing.Point(81, 114);
+            this.tile32.MaxLength = 1;
             this.tile32.Name = "tile32";
             this.tile32.Size = new System.Drawing.Size(27, 27);
             this.tile32.TabIndex = 18;
@@ -164,6 +172,7 @@
             // 
             this.tile31.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile31.Location = new System.Drawing.Point(48, 114);
+            this.tile31.MaxLength = 1;
             this.tile31.Name = "tile31";
             this.tile31.Size = new System.Drawing.Size(27, 27);
             this.tile31.TabIndex = 17;
@@ -172,6 +181,7 @@
             // 
             this.tile30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile30.Location = new System.Drawing.Point(15, 114);
+            this.tile30.MaxLength = 1;
             this.tile30.Name = "tile30";
             this.tile30.Size = new System.Drawing.Size(27, 27);
             this.tile30.TabIndex = 16;
@@ -180,6 +190,7 @@
             // 
             this.tile24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile24.Location = new System.Drawing.Point(147, 81);
+            this.tile24.MaxLength = 1;
             this.tile24.Name = "tile24";
             this.tile24.Size = new System.Drawing.Size(27, 27);
             this.tile24.TabIndex = 15;
@@ -188,6 +199,7 @@
             // 
             this.tile23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile23.Location = new System.Drawing.Point(114, 81);
+            this.tile23.MaxLength = 1;
             this.tile23.Name = "tile23";
             this.tile23.Size = new System.Drawing.Size(27, 27);
             this.tile23.TabIndex = 14;
@@ -196,6 +208,7 @@
             // 
             this.tile22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile22.Location = new System.Drawing.Point(81, 81);
+            this.tile22.MaxLength = 1;
             this.tile22.Name = "tile22";
             this.tile22.Size = new System.Drawing.Size(27, 27);
             this.tile22.TabIndex = 13;
@@ -204,6 +217,7 @@
             // 
             this.tile21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile21.Location = new System.Drawing.Point(48, 81);
+            this.tile21.MaxLength = 1;
             this.tile21.Name = "tile21";
             this.tile21.Size = new System.Drawing.Size(27, 27);
             this.tile21.TabIndex = 12;
@@ -212,6 +226,7 @@
             // 
             this.tile20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile20.Location = new System.Drawing.Point(15, 81);
+            this.tile20.MaxLength = 1;
             this.tile20.Name = "tile20";
             this.tile20.Size = new System.Drawing.Size(27, 27);
             this.tile20.TabIndex = 11;
@@ -220,6 +235,7 @@
             // 
             this.tile14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile14.Location = new System.Drawing.Point(147, 48);
+            this.tile14.MaxLength = 1;
             this.tile14.Name = "tile14";
             this.tile14.Size = new System.Drawing.Size(27, 27);
             this.tile14.TabIndex = 10;
@@ -228,6 +244,7 @@
             // 
             this.tile13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile13.Location = new System.Drawing.Point(114, 48);
+            this.tile13.MaxLength = 1;
             this.tile13.Name = "tile13";
             this.tile13.Size = new System.Drawing.Size(27, 27);
             this.tile13.TabIndex = 9;
@@ -236,6 +253,7 @@
             // 
             this.tile12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile12.Location = new System.Drawing.Point(81, 48);
+            this.tile12.MaxLength = 1;
             this.tile12.Name = "tile12";
             this.tile12.Size = new System.Drawing.Size(27, 27);
             this.tile12.TabIndex = 8;
@@ -244,6 +262,7 @@
             // 
             this.tile11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile11.Location = new System.Drawing.Point(48, 48);
+            this.tile11.MaxLength = 1;
             this.tile11.Name = "tile11";
             this.tile11.Size = new System.Drawing.Size(27, 27);
             this.tile11.TabIndex = 7;
@@ -252,6 +271,7 @@
             // 
             this.tile10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile10.Location = new System.Drawing.Point(15, 48);
+            this.tile10.MaxLength = 1;
             this.tile10.Name = "tile10";
             this.tile10.Size = new System.Drawing.Size(27, 27);
             this.tile10.TabIndex = 6;
@@ -260,6 +280,7 @@
             // 
             this.tile04.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile04.Location = new System.Drawing.Point(147, 15);
+            this.tile04.MaxLength = 1;
             this.tile04.Name = "tile04";
             this.tile04.Size = new System.Drawing.Size(27, 27);
             this.tile04.TabIndex = 5;
@@ -268,6 +289,7 @@
             // 
             this.tile03.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile03.Location = new System.Drawing.Point(114, 15);
+            this.tile03.MaxLength = 1;
             this.tile03.Name = "tile03";
             this.tile03.Size = new System.Drawing.Size(27, 27);
             this.tile03.TabIndex = 4;
@@ -276,6 +298,7 @@
             // 
             this.tile02.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile02.Location = new System.Drawing.Point(81, 15);
+            this.tile02.MaxLength = 1;
             this.tile02.Name = "tile02";
             this.tile02.Size = new System.Drawing.Size(27, 27);
             this.tile02.TabIndex = 3;
@@ -284,6 +307,7 @@
             // 
             this.tile01.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile01.Location = new System.Drawing.Point(48, 15);
+            this.tile01.MaxLength = 1;
             this.tile01.Name = "tile01";
             this.tile01.Size = new System.Drawing.Size(27, 27);
             this.tile01.TabIndex = 2;
@@ -292,6 +316,7 @@
             // 
             this.tile00.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile00.Location = new System.Drawing.Point(15, 15);
+            this.tile00.MaxLength = 1;
             this.tile00.Name = "tile00";
             this.tile00.Size = new System.Drawing.Size(27, 27);
             this.tile00.TabIndex = 1;
