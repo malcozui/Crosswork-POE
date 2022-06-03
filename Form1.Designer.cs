@@ -432,6 +432,7 @@
             this.winLbl.TabIndex = 5;
             this.winLbl.Text = "You Win!";
             this.winLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.winLbl.Visible = false;
             // 
             // resetButton
             // 
