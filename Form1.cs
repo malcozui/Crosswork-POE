@@ -23,11 +23,11 @@ namespace CrosswordPOE_Team
         // Reminder: comment what you did!!!
 
         /* Set up:
-         * 2D textbox array of the 25 textboxes
+         * ✔ 2D textbox array of the 25 textboxes
          * [no boolean array] check the colour in double for loop
-         * parrelel char array of correct letters
-         * throw away symbol ඞ
-         * update all the colours using the function they asked for in the POE (ChangeTextBoxStatus())
+         * ✔ parrelel char array of correct letters
+         * ✔ throw away symbol ඞ
+         * ✔ update all the colours using the function they asked for in the POE (ChangeTextBoxStatus())
          * 
          * Show hint BTN:
          * loop through the 2d TextBox array
@@ -81,6 +81,14 @@ namespace CrosswordPOE_Team
 
                         //makes it so that the player cannot type in the textbox once it is black.
                         textBoxes[i, j].ReadOnly = true;
+                    }
+                    else
+                    {
+                        //sets all the tiles white that should be.
+                        ChangeTextBoxStatus(textBoxes[i, j], white);
+
+                        //makes it so that the player can type in the white tiles
+                        textBoxes[i, j].ReadOnly = false;
                     }
                 }
             }
