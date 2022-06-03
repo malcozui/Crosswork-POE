@@ -98,6 +98,8 @@
             // 
             // tile44
             // 
+            this.tile44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile44.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile44.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile44.Location = new System.Drawing.Point(147, 147);
             this.tile44.MaxLength = 1;
@@ -107,6 +109,8 @@
             // 
             // tile43
             // 
+            this.tile43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile43.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile43.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile43.Location = new System.Drawing.Point(114, 147);
             this.tile43.MaxLength = 1;
@@ -116,6 +120,8 @@
             // 
             // tile42
             // 
+            this.tile42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile42.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile42.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile42.Location = new System.Drawing.Point(81, 147);
             this.tile42.MaxLength = 1;
@@ -125,6 +131,8 @@
             // 
             // tile41
             // 
+            this.tile41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile41.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile41.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile41.Location = new System.Drawing.Point(48, 147);
             this.tile41.MaxLength = 1;
@@ -134,6 +142,8 @@
             // 
             // tile40
             // 
+            this.tile40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile40.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile40.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile40.Location = new System.Drawing.Point(15, 147);
             this.tile40.MaxLength = 1;
@@ -143,6 +153,8 @@
             // 
             // tile34
             // 
+            this.tile34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile34.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile34.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile34.Location = new System.Drawing.Point(147, 114);
             this.tile34.MaxLength = 1;
@@ -152,6 +164,8 @@
             // 
             // tile33
             // 
+            this.tile33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile33.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile33.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile33.Location = new System.Drawing.Point(114, 114);
             this.tile33.MaxLength = 1;
@@ -161,6 +175,8 @@
             // 
             // tile32
             // 
+            this.tile32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile32.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile32.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile32.Location = new System.Drawing.Point(81, 114);
             this.tile32.MaxLength = 1;
@@ -170,6 +186,8 @@
             // 
             // tile31
             // 
+            this.tile31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile31.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile31.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile31.Location = new System.Drawing.Point(48, 114);
             this.tile31.MaxLength = 1;
@@ -179,6 +197,8 @@
             // 
             // tile30
             // 
+            this.tile30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile30.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile30.Location = new System.Drawing.Point(15, 114);
             this.tile30.MaxLength = 1;
@@ -188,6 +208,8 @@
             // 
             // tile24
             // 
+            this.tile24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile24.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile24.Location = new System.Drawing.Point(147, 81);
             this.tile24.MaxLength = 1;
@@ -197,6 +219,8 @@
             // 
             // tile23
             // 
+            this.tile23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile23.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile23.Location = new System.Drawing.Point(114, 81);
             this.tile23.MaxLength = 1;
@@ -206,6 +230,8 @@
             // 
             // tile22
             // 
+            this.tile22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile22.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile22.Location = new System.Drawing.Point(81, 81);
             this.tile22.MaxLength = 1;
@@ -215,6 +241,8 @@
             // 
             // tile21
             // 
+            this.tile21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile21.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile21.Location = new System.Drawing.Point(48, 81);
             this.tile21.MaxLength = 1;
@@ -224,6 +252,8 @@
             // 
             // tile20
             // 
+            this.tile20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile20.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile20.Location = new System.Drawing.Point(15, 81);
             this.tile20.MaxLength = 1;
@@ -233,6 +263,8 @@
             // 
             // tile14
             // 
+            this.tile14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile14.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile14.Location = new System.Drawing.Point(147, 48);
             this.tile14.MaxLength = 1;
@@ -242,6 +274,8 @@
             // 
             // tile13
             // 
+            this.tile13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile13.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile13.Location = new System.Drawing.Point(114, 48);
             this.tile13.MaxLength = 1;
@@ -251,6 +285,8 @@
             // 
             // tile12
             // 
+            this.tile12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile12.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile12.Location = new System.Drawing.Point(81, 48);
             this.tile12.MaxLength = 1;
@@ -260,6 +296,8 @@
             // 
             // tile11
             // 
+            this.tile11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile11.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile11.Location = new System.Drawing.Point(48, 48);
             this.tile11.MaxLength = 1;
@@ -269,6 +307,8 @@
             // 
             // tile10
             // 
+            this.tile10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile10.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile10.Location = new System.Drawing.Point(15, 48);
             this.tile10.MaxLength = 1;
@@ -278,6 +318,8 @@
             // 
             // tile04
             // 
+            this.tile04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile04.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile04.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile04.Location = new System.Drawing.Point(147, 15);
             this.tile04.MaxLength = 1;
@@ -287,6 +329,8 @@
             // 
             // tile03
             // 
+            this.tile03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile03.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile03.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile03.Location = new System.Drawing.Point(114, 15);
             this.tile03.MaxLength = 1;
@@ -296,6 +340,8 @@
             // 
             // tile02
             // 
+            this.tile02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile02.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile02.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile02.Location = new System.Drawing.Point(81, 15);
             this.tile02.MaxLength = 1;
@@ -305,6 +351,8 @@
             // 
             // tile01
             // 
+            this.tile01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile01.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile01.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile01.Location = new System.Drawing.Point(48, 15);
             this.tile01.MaxLength = 1;
@@ -314,6 +362,8 @@
             // 
             // tile00
             // 
+            this.tile00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tile00.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tile00.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile00.Location = new System.Drawing.Point(15, 15);
             this.tile00.MaxLength = 1;
