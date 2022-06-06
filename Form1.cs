@@ -12,6 +12,7 @@ namespace CrosswordPOE_Team
 {
     public partial class CrosswordForm : Form
     {
+        //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre B... (ST?)
         Color black = Color.Black;
         Color white = Color.White;
         Color green = Color.LimeGreen;
