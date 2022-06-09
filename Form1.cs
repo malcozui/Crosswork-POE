@@ -13,7 +13,7 @@ namespace CrosswordPOE_Team
     public partial class CrosswordForm : Form
     {
         TextBox[,] textBoxes;
-        char[,] correctLettersArr;
+        char[,] crossword;
 
         //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
         Color black = Color.Black;
@@ -62,7 +62,7 @@ namespace CrosswordPOE_Team
                 { tile40, tile41, tile42, tile43, tile44 }
             };
             // ඞ is a garbage char, its never intended to be typed, but rather denotes a black tile that should not be typed in.
-            correctLettersArr = new char[,]
+            crossword = new char[,]
             {
                 { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
                 { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
@@ -75,7 +75,7 @@ namespace CrosswordPOE_Team
             {
                 for (int j = 0; j < textBoxes.GetLength(1); j++)
                 {
-                    if (correctLettersArr[i, j] == 'ඞ')
+                    if (crossword[i, j] == 'ඞ')
                     {
                         //sets all the tiles black that should be.
                         ChangeTextBoxStatus(textBoxes[i, j], black);
