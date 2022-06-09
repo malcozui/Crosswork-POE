@@ -55,11 +55,11 @@ namespace CrosswordPOE_Team
         {
             textBoxes = new TextBox[,]
             {
-                { tile00, tile01, tile02, tile03, tile04 },
-                { tile10, tile11, tile12, tile13, tile14 },
-                { tile20, tile21, tile22, tile23, tile24 },
-                { tile30, tile31, tile32, tile33, tile34 },
-                { tile40, tile41, tile42, tile43, tile44 }
+                { txtCell00, txtCell01, txtCell02, txtCell03, txtCell04 },
+                { txtCell10, txtCell11, txtCell12, txtCell13, txtCell14 },
+                { txtCell20, txtCell21, txtCell22, txtCell23, txtCell24 },
+                { txtCell30, txtCell31, txtCell32, txtCell33, txtCell34 },
+                { txtCell40, txtCell41, txtCell42, txtCell43, txtCell44 }
             };
             // ඞ is a garbage char, its never intended to be typed, but rather denotes a black tile that should not be typed in.
             crossword = new char[,]
