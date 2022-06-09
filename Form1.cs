@@ -15,7 +15,7 @@ namespace CrosswordPOE_Team
         TextBox[,] textBoxes;
         char[,] correctLettersArr;
 
-        //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre B... (ST?)
+        //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
         Color black = Color.Black;
         Color white = Color.White;
         Color green = Color.LimeGreen;
