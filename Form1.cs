@@ -64,11 +64,11 @@ namespace CrosswordPOE_Team
             // ඞ is a garbage char, its never intended to be typed, but rather denotes a black tile that should not be typed in.
             crossword = new char[,]
             {
-                { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
-                { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
-                { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
-                { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' },
-                { 'ඞ', 'ඞ', 'ඞ', 'ඞ', 'ඞ' }
+                { 'U', 'ඞ', 'ඞ', 'L', 'ඞ' },
+                { 'S', 'O', 'N', 'I', 'C' },
+                { 'ඞ', 'D', 'ඞ', 'G', 'O' },
+                { 'N', 'I', 'G', 'H', 'T' },
+                { 'O', 'N', 'ඞ', 'T', 'ඞ' }
             };
 
             for (int i = 0; i < textBoxes.GetLength(0); i++)
