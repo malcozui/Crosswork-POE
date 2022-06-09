@@ -14,6 +14,8 @@ namespace CrosswordPOE_Team
     {
         TextBox[,] textBoxes;
         char[,] crossword;
+        string[] cluesDown;
+        string[] cluesAcross;
 
         //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
         Color black = Color.Black;
@@ -69,6 +71,23 @@ namespace CrosswordPOE_Team
                 { 'ඞ', 'D', 'ඞ', 'G', 'O' },
                 { 'N', 'I', 'G', 'H', 'T' },
                 { 'O', 'N', 'ඞ', 'T', 'ඞ' }
+            };
+
+            cluesDown = new string[]
+            {
+                "Another word for 'we'",
+                "To disagree",
+                "Leader of the Norse Gods",
+                "Is necessary to see in darkness",
+                "Where babies sleep"
+            };
+
+            cluesAcross = new string[]
+            {
+                "A popular game character created by SEGA",
+                "The opposite of stay",
+                "The time of day when you sleep",
+                "The opposite of 'off'"
             };
 
             for (int i = 0; i < textBoxes.GetLength(0); i++)
