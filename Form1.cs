@@ -75,20 +75,33 @@ namespace CrosswordPOE_Team
 
             cluesDown = new string[]
             {
-                "Another word for \"we\"",
+                "Another word for \"we\"",  
                 "To disagree",
-                "Leader of the Norse Gods",
+                "Father of the Norse god Thor ",
                 "Is necessary to see in darkness",
                 "Where babies sleep"
             };
-
             cluesAcross = new string[]
             {
                 "A popular game character created by SEGA",
                 "The opposite of stay",
                 "The time of day when you sleep",
-                "The opposite of 'off'"
+                "The opposite of \"off\""
             };
+
+            hintTextBox.Text = "Vertical clues:";
+            hintTextBox.Text += Environment.NewLine;
+            for (int i = 0; i < cluesDown.Length; i++)
+            {
+                hintTextBox.Text += $"{i + 1}. {cluesDown[i]}{Environment.NewLine}";
+            }
+            hintTextBox.Text += Environment.NewLine;
+            hintTextBox.Text += "Horizontal clues:";
+            hintTextBox.Text += Environment.NewLine;
+            for (int i = 0; i < cluesAcross.Length; i++)
+            {
+                hintTextBox.Text += $"{i + 1}. {cluesAcross[i]}{Environment.NewLine}";
+            }
 
             for (int i = 0; i < textBoxes.GetLength(0); i++)
             {
@@ -126,7 +139,14 @@ namespace CrosswordPOE_Team
         }
         private void resetButton_Click(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < textBoxes.GetLength(0); i++)
+            {
+                for (int j = 0; j < textBoxes.GetLength(1); j++)
+                {
+                    textBoxes[i, j].Text = "";
+                }
+            }
+            CrosswordForm_Load(sender, e);
         }
 
         private void ChangeTextBoxStatus(TextBox tb, Color col)

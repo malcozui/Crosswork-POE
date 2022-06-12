@@ -104,7 +104,7 @@
             this.txtCell44.Location = new System.Drawing.Point(147, 147);
             this.txtCell44.MaxLength = 1;
             this.txtCell44.Name = "txtCell44";
-            this.txtCell44.Size = new System.Drawing.Size(27, 32);
+            this.txtCell44.Size = new System.Drawing.Size(27, 27);
             this.txtCell44.TabIndex = 25;
             // 
             // txtCell43
@@ -115,7 +115,7 @@
             this.txtCell43.Location = new System.Drawing.Point(114, 147);
             this.txtCell43.MaxLength = 1;
             this.txtCell43.Name = "txtCell43";
-            this.txtCell43.Size = new System.Drawing.Size(27, 32);
+            this.txtCell43.Size = new System.Drawing.Size(27, 27);
             this.txtCell43.TabIndex = 24;
             // 
             // txtCell42
@@ -126,7 +126,7 @@
             this.txtCell42.Location = new System.Drawing.Point(81, 147);
             this.txtCell42.MaxLength = 1;
             this.txtCell42.Name = "txtCell42";
-            this.txtCell42.Size = new System.Drawing.Size(27, 32);
+            this.txtCell42.Size = new System.Drawing.Size(27, 27);
             this.txtCell42.TabIndex = 23;
             // 
             // txtCell41
@@ -137,7 +137,7 @@
             this.txtCell41.Location = new System.Drawing.Point(48, 147);
             this.txtCell41.MaxLength = 1;
             this.txtCell41.Name = "txtCell41";
-            this.txtCell41.Size = new System.Drawing.Size(27, 32);
+            this.txtCell41.Size = new System.Drawing.Size(27, 27);
             this.txtCell41.TabIndex = 22;
             // 
             // txtCell40
@@ -148,7 +148,7 @@
             this.txtCell40.Location = new System.Drawing.Point(15, 147);
             this.txtCell40.MaxLength = 1;
             this.txtCell40.Name = "txtCell40";
-            this.txtCell40.Size = new System.Drawing.Size(27, 32);
+            this.txtCell40.Size = new System.Drawing.Size(27, 27);
             this.txtCell40.TabIndex = 21;
             // 
             // txtCell34
@@ -159,7 +159,7 @@
             this.txtCell34.Location = new System.Drawing.Point(147, 114);
             this.txtCell34.MaxLength = 1;
             this.txtCell34.Name = "txtCell34";
-            this.txtCell34.Size = new System.Drawing.Size(27, 32);
+            this.txtCell34.Size = new System.Drawing.Size(27, 27);
             this.txtCell34.TabIndex = 20;
             // 
             // txtCell33
@@ -170,7 +170,7 @@
             this.txtCell33.Location = new System.Drawing.Point(114, 114);
             this.txtCell33.MaxLength = 1;
             this.txtCell33.Name = "txtCell33";
-            this.txtCell33.Size = new System.Drawing.Size(27, 32);
+            this.txtCell33.Size = new System.Drawing.Size(27, 27);
             this.txtCell33.TabIndex = 19;
             // 
             // txtCell32
@@ -181,7 +181,7 @@
             this.txtCell32.Location = new System.Drawing.Point(81, 114);
             this.txtCell32.MaxLength = 1;
             this.txtCell32.Name = "txtCell32";
-            this.txtCell32.Size = new System.Drawing.Size(27, 32);
+            this.txtCell32.Size = new System.Drawing.Size(27, 27);
             this.txtCell32.TabIndex = 18;
             // 
             // txtCell31
@@ -192,7 +192,7 @@
             this.txtCell31.Location = new System.Drawing.Point(48, 114);
             this.txtCell31.MaxLength = 1;
             this.txtCell31.Name = "txtCell31";
-            this.txtCell31.Size = new System.Drawing.Size(27, 32);
+            this.txtCell31.Size = new System.Drawing.Size(27, 27);
             this.txtCell31.TabIndex = 17;
             // 
             // txtCell30
@@ -203,7 +203,7 @@
             this.txtCell30.Location = new System.Drawing.Point(15, 114);
             this.txtCell30.MaxLength = 1;
             this.txtCell30.Name = "txtCell30";
-            this.txtCell30.Size = new System.Drawing.Size(27, 32);
+            this.txtCell30.Size = new System.Drawing.Size(27, 27);
             this.txtCell30.TabIndex = 16;
             // 
             // txtCell24
@@ -214,7 +214,7 @@
             this.txtCell24.Location = new System.Drawing.Point(147, 81);
             this.txtCell24.MaxLength = 1;
             this.txtCell24.Name = "txtCell24";
-            this.txtCell24.Size = new System.Drawing.Size(27, 32);
+            this.txtCell24.Size = new System.Drawing.Size(27, 27);
             this.txtCell24.TabIndex = 15;
             // 
             // txtCell23
@@ -225,7 +225,7 @@
             this.txtCell23.Location = new System.Drawing.Point(114, 81);
             this.txtCell23.MaxLength = 1;
             this.txtCell23.Name = "txtCell23";
-            this.txtCell23.Size = new System.Drawing.Size(27, 32);
+            this.txtCell23.Size = new System.Drawing.Size(27, 27);
             this.txtCell23.TabIndex = 14;
             // 
             // txtCell22
@@ -236,7 +236,7 @@
             this.txtCell22.Location = new System.Drawing.Point(81, 81);
             this.txtCell22.MaxLength = 1;
             this.txtCell22.Name = "txtCell22";
-            this.txtCell22.Size = new System.Drawing.Size(27, 32);
+            this.txtCell22.Size = new System.Drawing.Size(27, 27);
             this.txtCell22.TabIndex = 13;
             // 
             // txtCell21
@@ -247,7 +247,7 @@
             this.txtCell21.Location = new System.Drawing.Point(48, 81);
             this.txtCell21.MaxLength = 1;
             this.txtCell21.Name = "txtCell21";
-            this.txtCell21.Size = new System.Drawing.Size(27, 32);
+            this.txtCell21.Size = new System.Drawing.Size(27, 27);
             this.txtCell21.TabIndex = 12;
             // 
             // txtCell20
@@ -258,7 +258,7 @@
             this.txtCell20.Location = new System.Drawing.Point(15, 81);
             this.txtCell20.MaxLength = 1;
             this.txtCell20.Name = "txtCell20";
-            this.txtCell20.Size = new System.Drawing.Size(27, 32);
+            this.txtCell20.Size = new System.Drawing.Size(27, 27);
             this.txtCell20.TabIndex = 11;
             // 
             // txtCell14
@@ -269,7 +269,7 @@
             this.txtCell14.Location = new System.Drawing.Point(147, 48);
             this.txtCell14.MaxLength = 1;
             this.txtCell14.Name = "txtCell14";
-            this.txtCell14.Size = new System.Drawing.Size(27, 32);
+            this.txtCell14.Size = new System.Drawing.Size(27, 27);
             this.txtCell14.TabIndex = 10;
             // 
             // txtCell13
@@ -280,7 +280,7 @@
             this.txtCell13.Location = new System.Drawing.Point(114, 48);
             this.txtCell13.MaxLength = 1;
             this.txtCell13.Name = "txtCell13";
-            this.txtCell13.Size = new System.Drawing.Size(27, 32);
+            this.txtCell13.Size = new System.Drawing.Size(27, 27);
             this.txtCell13.TabIndex = 9;
             // 
             // txtCell12
@@ -291,7 +291,7 @@
             this.txtCell12.Location = new System.Drawing.Point(81, 48);
             this.txtCell12.MaxLength = 1;
             this.txtCell12.Name = "txtCell12";
-            this.txtCell12.Size = new System.Drawing.Size(27, 32);
+            this.txtCell12.Size = new System.Drawing.Size(27, 27);
             this.txtCell12.TabIndex = 8;
             // 
             // txtCell11
@@ -302,7 +302,7 @@
             this.txtCell11.Location = new System.Drawing.Point(48, 48);
             this.txtCell11.MaxLength = 1;
             this.txtCell11.Name = "txtCell11";
-            this.txtCell11.Size = new System.Drawing.Size(27, 32);
+            this.txtCell11.Size = new System.Drawing.Size(27, 27);
             this.txtCell11.TabIndex = 7;
             // 
             // txtCell10
@@ -313,7 +313,7 @@
             this.txtCell10.Location = new System.Drawing.Point(15, 48);
             this.txtCell10.MaxLength = 1;
             this.txtCell10.Name = "txtCell10";
-            this.txtCell10.Size = new System.Drawing.Size(27, 32);
+            this.txtCell10.Size = new System.Drawing.Size(27, 27);
             this.txtCell10.TabIndex = 6;
             // 
             // txtCell04
@@ -324,7 +324,7 @@
             this.txtCell04.Location = new System.Drawing.Point(147, 15);
             this.txtCell04.MaxLength = 1;
             this.txtCell04.Name = "txtCell04";
-            this.txtCell04.Size = new System.Drawing.Size(27, 32);
+            this.txtCell04.Size = new System.Drawing.Size(27, 27);
             this.txtCell04.TabIndex = 5;
             // 
             // txtCell03
@@ -335,7 +335,7 @@
             this.txtCell03.Location = new System.Drawing.Point(114, 15);
             this.txtCell03.MaxLength = 1;
             this.txtCell03.Name = "txtCell03";
-            this.txtCell03.Size = new System.Drawing.Size(27, 32);
+            this.txtCell03.Size = new System.Drawing.Size(27, 27);
             this.txtCell03.TabIndex = 4;
             // 
             // txtCell02
@@ -346,7 +346,7 @@
             this.txtCell02.Location = new System.Drawing.Point(81, 15);
             this.txtCell02.MaxLength = 1;
             this.txtCell02.Name = "txtCell02";
-            this.txtCell02.Size = new System.Drawing.Size(27, 32);
+            this.txtCell02.Size = new System.Drawing.Size(27, 27);
             this.txtCell02.TabIndex = 3;
             // 
             // txtCell01
@@ -357,7 +357,7 @@
             this.txtCell01.Location = new System.Drawing.Point(48, 15);
             this.txtCell01.MaxLength = 1;
             this.txtCell01.Name = "txtCell01";
-            this.txtCell01.Size = new System.Drawing.Size(27, 32);
+            this.txtCell01.Size = new System.Drawing.Size(27, 27);
             this.txtCell01.TabIndex = 2;
             // 
             // txtCell00
@@ -368,7 +368,7 @@
             this.txtCell00.Location = new System.Drawing.Point(15, 15);
             this.txtCell00.MaxLength = 1;
             this.txtCell00.Name = "txtCell00";
-            this.txtCell00.Size = new System.Drawing.Size(27, 32);
+            this.txtCell00.Size = new System.Drawing.Size(27, 27);
             this.txtCell00.TabIndex = 1;
             // 
             // hintButton
@@ -403,13 +403,15 @@
             // 
             // hintTextBox
             // 
+            this.hintTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.hintTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.hintTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hintTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.hintTextBox.Location = new System.Drawing.Point(12, 222);
             this.hintTextBox.Multiline = true;
             this.hintTextBox.Name = "hintTextBox";
-            this.hintTextBox.Size = new System.Drawing.Size(297, 93);
+            this.hintTextBox.Size = new System.Drawing.Size(297, 167);
             this.hintTextBox.TabIndex = 3;
             // 
             // hintLbl
@@ -417,7 +419,7 @@
             this.hintLbl.AutoSize = true;
             this.hintLbl.Location = new System.Drawing.Point(16, 206);
             this.hintLbl.Name = "hintLbl";
-            this.hintLbl.Size = new System.Drawing.Size(44, 19);
+            this.hintLbl.Size = new System.Drawing.Size(37, 13);
             this.hintLbl.TabIndex = 4;
             this.hintLbl.Text = "Hints:";
             // 
@@ -428,7 +430,7 @@
             this.winLbl.ForeColor = System.Drawing.Color.White;
             this.winLbl.Location = new System.Drawing.Point(222, 126);
             this.winLbl.Name = "winLbl";
-            this.winLbl.Size = new System.Drawing.Size(93, 25);
+            this.winLbl.Size = new System.Drawing.Size(72, 20);
             this.winLbl.TabIndex = 5;
             this.winLbl.Text = "You Win!";
             this.winLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -451,10 +453,10 @@
             // 
             // CrosswordForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.ClientSize = new System.Drawing.Size(321, 327);
+            this.ClientSize = new System.Drawing.Size(321, 401);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.winLbl);
             this.Controls.Add(this.hintLbl);
