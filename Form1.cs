@@ -75,7 +75,7 @@ namespace CrosswordPOE_Team
 
             cluesDown = new string[]
             {
-                "Another word for 'we'",
+                "Another word for \"we\"",
                 "To disagree",
                 "Leader of the Norse Gods",
                 "Is necessary to see in darkness",
