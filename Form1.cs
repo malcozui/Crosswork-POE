@@ -135,8 +135,25 @@ namespace CrosswordPOE_Team
 
         private void guessButton_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < textBoxes.GetLength(0); i++)
+            {
+                for (int j = 0; j < textBoxes.GetLength(1); j++)
+                {
+                    //checks if the cell's correct letter is the garbage char or if it is empty, skips the selected cell when true.
+                    if (crossword[i, j] == 'ඞ' || textBoxes[i, j].Text.Length == 0) continue;
 
+                    if (textBoxes[i, j].Text[0] == crossword[i, j])
+                    {
+                        ChangeTextBoxStatus(textBoxes[i, j], green);
+                    }
+                    else
+                    {
+                        ChangeTextBoxStatus(textBoxes[i, j], red);
+                    }
+                }
+            }
         }
+
         private void resetButton_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < textBoxes.GetLength(0); i++)
