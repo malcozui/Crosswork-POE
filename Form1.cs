@@ -38,14 +38,14 @@ namespace CrosswordPOE_Team
          * make selected TextBox Black, and the ForeColor = Color.White
          * 
          * Check Guess BTN:
-         * double for loop through the TextBoxes and chek against the coresponding character, if !BackColor = Color.Black
-         * if correct Color.LimeGreen
-         * else Color.Red
+         * ✔ double for loop through the TextBoxes and chek against the coresponding character, if !BackColor = Color.Black
+         * ✔ if correct Color.LimeGreen
+         * ✔ else Color.Red
          * 
          * Optional additions:
          * counter for counter for correct letters.
          * if all letters correct unhide a hidden victory msg
-         * play again button
+         * ✔ play again button
          * 
          */
         public CrosswordForm()
