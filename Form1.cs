@@ -72,7 +72,6 @@ namespace CrosswordPOE_Team
                 { 'N', 'I', 'G', 'H', 'T' },
                 { 'O', 'N', 'ඞ', 'T', 'ඞ' }
             };
-
             cluesDown = new string[]
             {
                 "Another word for \"we\"",  
