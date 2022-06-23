@@ -16,7 +16,6 @@ namespace CrosswordPOE_Team
         char[,] crossword;
         string[] cluesDown;
         string[] cluesAcross;
-        int currentLettersCorrect;
         int whiteCellCount;
 
         //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
