@@ -199,21 +199,21 @@ namespace CrosswordPOE_Team
                 }
             }
 
-            if (whiteCellFound)
+            if (!whiteCellFound) return;
+            
+            do
             {
-                do
-                {
-                    randomX = random.Next(0,textBoxes.GetLength(0));
-                    randomY = random.Next(0,textBoxes.GetLength(1));
+                randomX = random.Next(0,textBoxes.GetLength(0));
+                randomY = random.Next(0,textBoxes.GetLength(1));
 
-                    if (textBoxes[randomX,randomY].BackColor == white || textBoxes[randomX, randomY].BackColor == red)
-                    {
-                        textBoxes[randomX, randomY].Text = Convert.ToString(crossword[randomX, randomY]);
-                        hintDone = true;
-                    }
+                if (textBoxes[randomX,randomY].BackColor == white || textBoxes[randomX, randomY].BackColor == red)
+                {
+                    textBoxes[randomX, randomY].Text = Convert.ToString(crossword[randomX, randomY]);
+                    hintDone = true;
                 }
-                while (!hintDone);
             }
+            while (!hintDone);
+            
         }
     }
 }
