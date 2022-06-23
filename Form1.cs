@@ -133,7 +133,7 @@ namespace CrosswordPOE_Team
 
         private void hintButton_Click(object sender, EventArgs e)
         {
-
+            ShowHint();
         }
 
         private void guessButton_Click(object sender, EventArgs e)
