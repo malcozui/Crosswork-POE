@@ -158,7 +158,7 @@ namespace CrosswordPOE_Team
                     }
                 }
             }
-            if (correctCells == whiteCellCount)
+            if (correctCells >= whiteCellCount)
             {
                 winLbl.Visible = true;
             }
