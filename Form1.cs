@@ -37,9 +37,9 @@ namespace CrosswordPOE_Team
          * ✔ update all the colours using the function they asked for in the POE (ChangeTextBoxStatus())
          * 
          * Show hint BTN:
-         * loop through the 2d TextBox array
-         * check if !BackColor = Color.Black == valid spot for hint
-         * make selected TextBox Black, and the ForeColor = Color.White
+         * ✔ loop through the 2d TextBox array
+         * ✔ check if !BackColor = Color.Black == valid spot for hint
+         * ✔ make selected TextBox Black, and the ForeColor = Color.White
          * 
          * Check Guess BTN:
          * ✔ double for loop through the TextBoxes and chek against the coresponding character, if !BackColor = Color.Black
@@ -47,8 +47,8 @@ namespace CrosswordPOE_Team
          * ✔ else Color.Red
          * 
          * Optional additions:
-         * counter for counter for correct letters.
-         * if all letters correct unhide a hidden victory msg
+         * ✔ counter for counter for correct letters.
+         * ✔ if all letters correct unhide a hidden victory msg
          * ✔ play again button
          * 
          */
