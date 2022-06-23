@@ -201,25 +201,29 @@ namespace CrosswordPOE_Team
                 {
                     if (textBoxes[i, j].BackColor == white || textBoxes[i, j].BackColor == red)
                     {
+                        //checks if there is a white or red cell left to have a hint be placed in.
                         availableCellFound = true;
                     }
                 }
             }
 
+            // if no cells are available, i.e. the entire board is green and or black, then it exits the function
             if (!availableCellFound) return;
             
-            do
+            do //the loop loops until the randomly selecetd x and y choordinates gives a cell that can be made into a hint cell.
             {
+                //generates a random x and y choordinate to put the hint in
                 randomX = random.Next(0,textBoxes.GetLength(0));
                 randomY = random.Next(0,textBoxes.GetLength(1));
 
                 if (textBoxes[randomX,randomY].BackColor == white || textBoxes[randomX, randomY].BackColor == red)
                 {
+                    //if the cell is white or red that means the randomly selected cell was available to be changed into a hint cell.
                     textBoxes[randomX, randomY].Text = Convert.ToString(crossword[randomX, randomY]);
-                    ChangeTextBoxStatus(textBoxes[randomX, randomY], black);
-                    textBoxes[randomX, randomY].ForeColor = white;
-                    
-                    hintDone = true;
+                    ChangeTextBoxStatus(textBoxes[randomX, randomY], black); //makes the cell black
+                    textBoxes[randomX, randomY].ForeColor = white; //makes the text white
+                    textBoxes[randomX, randomY].ReadOnly = true; //makes it so the user cannot change the given value.
+                    hintDone = true; //ends the loop
                 }
             }
             while (!hintDone);
