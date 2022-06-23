@@ -27,6 +27,20 @@ namespace CrosswordPOE_Team
         Color green = Color.LimeGreen;
         Color red = Color.Red;
 
+        /*  Who did what:
+         * The design           - Both
+         * 
+         *  Functions:
+         * FormLoad()           - Both
+         *      2d arrays       - Malcom
+         *      Hints           - Andre
+         *      Updtating cells - Both
+         * guessButton_Click()  - Malcom
+         * ShowHint()           - Andre
+         * resetButton_Click()  - Both
+         * ChangeTextBoxStatus  - Malcom
+         */
+
         // Reminder: comment what you did!!!
 
         /* Set up:
