@@ -175,6 +175,17 @@ namespace CrosswordPOE_Team
 
         private void ShowHint()
         {
+            Random random = new Random();
+            int randomX = 0;
+            int randomY = 0;
+
+            for (int i = 0; i < textBoxes.GetLength(0); i++)
+            {
+                for (int j = 0; j < textBoxes.GetLength(0); j++)
+                {
+
+                }
+            }
 
         }
     }
