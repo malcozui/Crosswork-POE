@@ -118,7 +118,7 @@ namespace CrosswordPOE_Team
                         ChangeTextBoxStatus(textBoxes[i, j], black);
 
                         //makes it so that the player cannot type in the textbox once it is black.
-                        textBoxes[i, j].ReadOnly = true;
+                        textBoxes[i, j].ReadOnly = true;                      
                     }
                     else
                     {
@@ -153,7 +153,7 @@ namespace CrosswordPOE_Team
                     if (textBoxes[i, j].Text[0] == crossword[i, j])
                     {
                         ChangeTextBoxStatus(textBoxes[i, j], green);
-                        textBoxes[i, j].ReadOnly = true;
+                        textBoxes[i, j].ReadOnly = true;    //sets cell to readonly if the correct letter was entered. That way the user cannot change correct values after they are entered
                         correctCells++;
                     }
                     else
