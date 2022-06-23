@@ -153,7 +153,7 @@ namespace CrosswordPOE_Team
                     if (textBoxes[i, j].Text[0] == crossword[i, j])
                     {
                         ChangeTextBoxStatus(textBoxes[i, j], green);
-                        textBoxes[i, j].ReadOnly = true;    //sets cell to readonly if the correct letter was entered. That way the user cannot change correct values after they are entered
+                        textBoxes[i, j].ReadOnly = true; //sets cell to readonly if the correct letter was entered. That way the user cannot change correct values after they are entered
                         correctCells++;
                     }
                     else
@@ -175,10 +175,11 @@ namespace CrosswordPOE_Team
             {
                 for (int j = 0; j < textBoxes.GetLength(1); j++)
                 {
+                    //clears out the text on reset
                     textBoxes[i, j].Text = "";
                 }
             }
-            tilesPanel.Enabled = true;
+            tilesPanel.Enabled = true; //re-enables if the player won 
             CrosswordForm_Load(sender, e);
         }
 
@@ -227,6 +228,8 @@ namespace CrosswordPOE_Team
                 }
             }
             while (!hintDone);
+            //the reason this decremeants is so that when the check for the win happens, the total number of cells is accurate,
+            //since when a cell is converted to a hint, it no longer needs to be correctly guessed
             whiteCellCount--;
         }
     }
