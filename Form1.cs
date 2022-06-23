@@ -56,6 +56,8 @@ namespace CrosswordPOE_Team
 
         private void CrosswordForm_Load(object sender, EventArgs e)
         {
+            winLbl.Visible = false;
+
             textBoxes = new TextBox[,]
             {
                 { txtCell00, txtCell01, txtCell02, txtCell03, txtCell04 },
@@ -136,6 +138,7 @@ namespace CrosswordPOE_Team
 
         private void guessButton_Click(object sender, EventArgs e)
         {
+            int correctCells = 0;
             for (int i = 0; i < textBoxes.GetLength(0); i++)
             {
                 for (int j = 0; j < textBoxes.GetLength(1); j++)
@@ -146,12 +149,17 @@ namespace CrosswordPOE_Team
                     if (textBoxes[i, j].Text[0] == crossword[i, j])
                     {
                         ChangeTextBoxStatus(textBoxes[i, j], green);
+                        correctCells++;
                     }
                     else
                     {
                         ChangeTextBoxStatus(textBoxes[i, j], red);
                     }
                 }
+            }
+            if (correctCells == whiteCellCount)
+            {
+                winLbl.Visible = true;
             }
         }
 
