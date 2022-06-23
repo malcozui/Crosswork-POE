@@ -34,38 +34,13 @@ namespace CrosswordPOE_Team
          * FormLoad()           - Both
          *      2d arrays       - Malcom
          *      Hints           - Andre
-         *      Updtating cells - Both
+         *      Updating cells - Both
          * guessButton_Click()  - Malcom
          * ShowHint()           - Andre
          * resetButton_Click()  - Both
          * ChangeTextBoxStatus  - Malcom
          */
 
-        // Reminder: comment what you did!!!
-
-        /* Set up:
-         * ✔ 2D textbox array of the 25 textboxes
-         * [no boolean array] check the colour in double for loop
-         * ✔ parrelel char array of correct letters
-         * ✔ throw away symbol ඞ
-         * ✔ update all the colours using the function they asked for in the POE (ChangeTextBoxStatus())
-         * 
-         * Show hint BTN:
-         * ✔ loop through the 2d TextBox array
-         * ✔ check if !BackColor = Color.Black == valid spot for hint
-         * ✔ make selected TextBox Black, and the ForeColor = Color.White
-         * 
-         * Check Guess BTN:
-         * ✔ double for loop through the TextBoxes and chek against the coresponding character, if !BackColor = Color.Black
-         * ✔ if correct Color.LimeGreen
-         * ✔ else Color.Red
-         * 
-         * Optional additions:
-         * ✔ counter for counter for correct letters.
-         * ✔ if all letters correct unhide a hidden victory msg
-         * ✔ play again button
-         * 
-         */
         public CrosswordForm()
         {
             InitializeComponent();
