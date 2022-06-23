@@ -121,6 +121,7 @@ namespace CrosswordPOE_Team
                     {
                         //sets all the tiles white that should be.
                         ChangeTextBoxStatus(textBoxes[i, j], white);
+                        textBoxes[i, j].ForeColor = black;
 
                         //makes it so that the player can type in the white tiles
                         textBoxes[i, j].ReadOnly = false;
@@ -144,7 +145,7 @@ namespace CrosswordPOE_Team
                 for (int j = 0; j < textBoxes.GetLength(1); j++)
                 {
                     //checks if the cell's correct letter is the garbage char or if it is empty, skips the selected cell when true.
-                    if (crossword[i, j] == 'ඞ' || textBoxes[i, j].Text.Length == 0) continue;
+                    if (textBoxes[i, j].BackColor == black || textBoxes[i, j].Text.Length == 0) continue;
 
                     if (textBoxes[i, j].Text[0] == crossword[i, j])
                     {
