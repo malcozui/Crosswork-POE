@@ -162,6 +162,7 @@ namespace CrosswordPOE_Team
             if (correctCells >= whiteCellCount)
             {
                 winLbl.Visible = true;
+                tilesPanel.Enabled = false;
             }
         }
 
@@ -174,6 +175,7 @@ namespace CrosswordPOE_Team
                     textBoxes[i, j].Text = "";
                 }
             }
+            tilesPanel.Enabled = true;
             CrosswordForm_Load(sender, e);
         }
 
