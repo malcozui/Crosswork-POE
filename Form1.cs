@@ -209,6 +209,8 @@ namespace CrosswordPOE_Team
                 if (textBoxes[randomX,randomY].BackColor == white || textBoxes[randomX, randomY].BackColor == red)
                 {
                     textBoxes[randomX, randomY].Text = Convert.ToString(crossword[randomX, randomY]);
+                    ChangeTextBoxStatus(textBoxes[randomX, randomY], black);
+                    textBoxes[randomX, randomY].ForeColor = white;
                     hintDone = true;
                 }
             }
