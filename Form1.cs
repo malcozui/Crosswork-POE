@@ -169,5 +169,10 @@ namespace CrosswordPOE_Team
         {
             tb.BackColor = col;
         }
+
+        private void ShowHint()
+        {
+
+        }
     }
 }
