@@ -20,7 +20,7 @@ namespace CrosswordPOE_Team
 
         //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
         /* We added a reset button as we wanted to go above and beyond and make the program more user friendly 
-         * 
+         * We also added a win message, and a few extra features to make the experience of the program feel good.
          */
         Color black = Color.Black;
         Color white = Color.White;
