@@ -212,6 +212,7 @@ namespace CrosswordPOE_Team
                     textBoxes[randomX, randomY].Text = Convert.ToString(crossword[randomX, randomY]);
                     ChangeTextBoxStatus(textBoxes[randomX, randomY], black);
                     textBoxes[randomX, randomY].ForeColor = white;
+                    whiteCellCount--;
                     hintDone = true;
                 }
             }
