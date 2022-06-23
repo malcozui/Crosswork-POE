@@ -187,21 +187,21 @@ namespace CrosswordPOE_Team
             Random random = new Random();
             int randomX = 0;
             int randomY = 0;
-            bool whiteCellFound = false;
+            bool availableCellFound = false;
             bool hintDone = false;
 
             for (int i = 0; i < textBoxes.GetLength(0); i++)
             {
                 for (int j = 0; j < textBoxes.GetLength(1); j++)
                 {
-                    if (textBoxes[i, j].BackColor == white)
+                    if (textBoxes[i, j].BackColor == white || textBoxes[i, j].BackColor == red)
                     {
-                        whiteCellFound = true;
+                        availableCellFound = true;
                     }
                 }
             }
 
-            if (!whiteCellFound) return;
+            if (!availableCellFound) return;
             
             do
             {
