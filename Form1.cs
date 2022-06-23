@@ -185,14 +185,20 @@ namespace CrosswordPOE_Team
             Random random = new Random();
             int randomX = 0;
             int randomY = 0;
+            bool whiteCellFound = false;
 
             for (int i = 0; i < textBoxes.GetLength(0); i++)
             {
-                for (int j = 0; j < textBoxes.GetLength(0); j++)
+                for (int j = 0; j < textBoxes.GetLength(1); j++)
                 {
-
+                    if (textBoxes[i, j].BackColor == white)
+                    {
+                        whiteCellFound = true;
+                    }
                 }
             }
+
+
 
         }
     }
