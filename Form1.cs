@@ -19,7 +19,9 @@ namespace CrosswordPOE_Team
         int whiteCellCount;
 
         //Our team consists of Malcom Joe Dos Santos Thonger (ST10074559) and Andre Booysen (ST10094507)
-        /* We added a reset button as we wanted to go above and beyond and make the program more user friendly */
+        /* We added a reset button as we wanted to go above and beyond and make the program more user friendly 
+         * 
+         */
         Color black = Color.Black;
         Color white = Color.White;
         Color green = Color.LimeGreen;
@@ -151,6 +153,7 @@ namespace CrosswordPOE_Team
                     if (textBoxes[i, j].Text[0] == crossword[i, j])
                     {
                         ChangeTextBoxStatus(textBoxes[i, j], green);
+                        textBoxes[i, j].ReadOnly = true;
                         correctCells++;
                     }
                     else
